@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/prince_react/static/css/main.073c9b0a.css",
+    "main.js": "/prince_react/static/js/main.5985549e.js",
+    "static/js/787.54154dc3.chunk.js": "/prince_react/static/js/787.54154dc3.chunk.js",
+    "static/media/logo.svg": "/prince_react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/prince_react/index.html",
+    "main.073c9b0a.css.map": "/prince_react/static/css/main.073c9b0a.css.map",
+    "main.5985549e.js.map": "/prince_react/static/js/main.5985549e.js.map",
+    "787.54154dc3.chunk.js.map": "/prince_react/static/js/787.54154dc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5985549e.js"
+  ]
+}
