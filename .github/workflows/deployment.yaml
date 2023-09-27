@@ -1,0 +1,35 @@
+name: React workflow
+
+on:
+  push:
+    branches:
+      - main
+
+
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: action/checkout@v3
+
+      - name: set up node environment
+        uses: actions/setup_node@v3
+        with:
+          node-version: '18.x'
+
+      - name: install dependencies
+        run: npm ci
+
+      - name: create react
+        run: npm run build
+      
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with: 
+          folder: build
+
+
+
+# https://github.com/JamesIves/github-pages-deploy-action
